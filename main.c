@@ -114,5 +114,8 @@ int main(void)
     lista_salvar(&tipos, ARQ_TIPOS_PET);
     lista_salvar(&pets, ARQ_PETS);
     printf("\nDados salvos.\n");
+
+    printf("Pressione Enter para sair...");
+    getchar();          /* evita que a janela feche antes de voce ler */
     return 0;
 }
